@@ -25,22 +25,22 @@ export const App: React.FC = observer(() => {
   const { initialAuthCheck, isAuthenticated, capabilitiesComputed } = store.CommunicationState
   const { resolvedThemeObject } = rootStore.ThemeState
 
-  useEffect(() => {
-    store.CommunicationState.checkLogin()
-  }, [])
+  // useEffect(() => {
+  //   store.CommunicationState.checkLogin()
+  // }, [])
 
-  useEffect(() => {
-    if (initialAuthCheck && isAuthenticated) {
-      store.CommunicationState.fetchConfigurationLists()
-    }
-  }, [initialAuthCheck, isAuthenticated])
+  // useEffect(() => {
+  //   if (initialAuthCheck && isAuthenticated) {
+  //     store.CommunicationState.fetchConfigurationLists()
+  //   }
+  // }, [initialAuthCheck, isAuthenticated])
 
-  useEffect(() => {
-    if (capabilitiesComputed.isAllowedToManageAccess && isAuthenticated) {
-      store.CommunicationState.fetchAllAccessManagementLists()
-      store.CommunicationState.fetchAllDataForInputs()
-    }
-  }, [isAuthenticated, capabilitiesComputed])
+  // useEffect(() => {
+  //   if (capabilitiesComputed.isAllowedToManageAccess && isAuthenticated) {
+  //     store.CommunicationState.fetchAllAccessManagementLists()
+  //     store.CommunicationState.fetchAllDataForInputs()
+  //   }
+  // }, [isAuthenticated, capabilitiesComputed])
 
   return (
     <StoreContext.Provider value={rootStore}>
@@ -69,7 +69,8 @@ export const App: React.FC = observer(() => {
               <ContextMenu />
               <Tooltip />
 
-              {isAuthenticated && initialAuthCheck ? <MainGrid /> : <LoginView />}
+              {/* {isAuthenticated && initialAuthCheck ? <MainGrid /> : <LoginView />} */}
+              <MainGrid />
             </AppContainer>
           </Hotkeys>
         </ErrorBoundary>
