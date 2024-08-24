@@ -1,0 +1,98 @@
+{
+  "General": {
+    "pagination": {
+      "previous": "Prev",
+      "next": "Próximo",
+      "of": "de"
+    },
+    "goBack": "Voltar atrás",
+    "requiredFields": "campos obrigatórios",
+    "takePhoto": "Tirar foto",
+    "retake": "Reassumir",
+    "proceed": "Prosseguir",
+    "fileInput": {
+      "chooseFile": "Arquivo drag & Drop ou clique para fazer upload"
+    }
+  },
+  "SigningTransactions": {
+    "title": "Solicitações de sinais",
+    "description": "Controlar e gerenciar solicitações de sinais criados",
+    "tableColumns": {
+      "email": "E-mail",
+      "recipientName": "Nome do destinatário",
+      "documentName": "Nome do Documento",
+      "creationDate": "Data de Criação",
+      "status": "Status"
+    },
+    "search": "Pesquisar por e-mail",
+    "newSignRequest": "Nova solicitação de sinais",
+    "refresh": "Atualização",
+    "filter": "Filtro",
+    "filters": {}
+  },
+  "SigningTransactionView": {
+    "title": "Visualização do Documento:",
+    "documentTitle": "Documento assinado",
+    "signatureTitle": "Assinatura Digital",
+    "downloadDocument": "Baixar Documento",
+    "changeStatus": "Alterar Status",
+    "documentData": {
+      "title": "Dados do OCR",
+      "status": "status",
+      "documentName": "Nome do Documento",
+      "recipientEmail": "E-mail:",
+      "recipientName": "Nome completo:"
+    }
+  },
+  "NewSignRequestPopup": {
+    "form": {
+      "title": "Nova solicitação de sinais",
+      "recipientEmail": "E-mail Destinatário:",
+      "recipientName": "Nome do destinatário:",
+      "recipientMessage": "Mensagem para Participante:",
+      "documentName": "Nome do documento:",
+      "preview": "Preview"
+    },
+    "preview": {
+      "title": "Nova solicitação de sinais",
+      "subtitle": "Revise a pré-visualização do e-mail antes do envio",
+      "viewPdf": "Visualizar PDF",
+      "back": "Voltar",
+      "send": "Enviar"
+    },
+    "success": {
+      "title": "Documento Uploaded",
+      "subtitle": "Solicitação de sinal foi enviada para",
+      "confirm": "Confirmar"
+    }
+  },
+  "SignDocument": {
+    "title": "Assinar Documento",
+    "personCard": {
+      "signingAs": "Assinando como",
+      "email": "E-mail",
+      "completeName": "Nome completo"
+    },
+    "sign": "Assinar Documento",
+    "signed": "Documento assinado",
+    "failed": "Sinal falhou",
+    "download": "Baixar Documento",
+    "form": {
+      "title": "Documento para assinar",
+      "completeName": "Nome completo",
+      "cpf": "CPF",
+      "signature": "Sua assinatura digital",
+      "signatureTip": "(use seu touchscreen ou o cursor do mouse)",
+      "proceed": "Prosseguir"
+    },
+    "faceCapture": {
+      "title": "Captura de rosto",
+      "subtitle": "Verificaremos sua foto com banco de dados BioVálido",
+      "tip": "Por favor, tente ficar dentro da área segura"
+    }
+  },
+  "NotFound": {
+    "title": "Página não encontrada",
+    "description": "A página que você está procurando não existe"
+  }
+}

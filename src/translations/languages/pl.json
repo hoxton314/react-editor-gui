@@ -1,0 +1,98 @@
+{
+  "General": {
+    "pagination": {
+      "previous": "Wstecz",
+      "next": "Następny",
+      "of": "z"
+    },
+    "goBack": "Powrót",
+    "requiredFields": "wymagane pola",
+    "takePhoto": "Podejmij zdjęcie",
+    "retake": "Ponowne podjęcie",
+    "proceed": "Kontynuuj",
+    "fileInput": {
+      "chooseFile": "Przeciągnij i upuść plik lub kliknij, aby przesłać"
+    }
+  },
+  "SigningTransactions": {
+    "title": "Podpisz żądania",
+    "description": "Śledzenie utworzonych żądań podpisywania i zarządzanie nimi",
+    "tableColumns": {
+      "email": "Adres e-mail",
+      "recipientName": "Nazwa odbiorcy",
+      "documentName": "Nazwa dokumentu",
+      "creationDate": "Data utworzenia",
+      "status": "Status"
+    },
+    "search": "Szukaj wg adresu e-mail",
+    "newSignRequest": "Nowe żądanie podpisania",
+    "refresh": "Odśwież",
+    "filter": "Filtr",
+    "filters": {}
+  },
+  "SigningTransactionView": {
+    "title": "Widok dokumentu:",
+    "documentTitle": "Podpisany dokument",
+    "signatureTitle": "Podpis cyfrowy",
+    "downloadDocument": "Pobierz dokument",
+    "changeStatus": "Zmień status",
+    "documentData": {
+      "title": "Dane OCR",
+      "status": "status",
+      "documentName": "Nazwa dokumentu",
+      "recipientEmail": "Adres e-mail:",
+      "recipientName": "Pełna nazwa:"
+    }
+  },
+  "NewSignRequestPopup": {
+    "form": {
+      "title": "Nowe żądanie podpisania",
+      "recipientEmail": "Adres e-mail odbiorcy:",
+      "recipientName": "Nazwa odbiorcy:",
+      "recipientMessage": "Wiadomość do uczestnika:",
+      "documentName": "Nazwa dokumentu:",
+      "preview": "Podgląd"
+    },
+    "preview": {
+      "title": "Nowe żądanie podpisania",
+      "subtitle": "Przejrzyj podgląd wiadomości e-mail przed wysłaniem",
+      "viewPdf": "Wyświetl PDF",
+      "back": "Wstecz",
+      "send": "Wyślij"
+    },
+    "success": {
+      "title": "Przesłano dokument",
+      "subtitle": "Żądanie podpisania zostało wysłane do",
+      "confirm": "Potwierdź"
+    }
+  },
+  "SignDocument": {
+    "title": "Podpisywanie dokumentu",
+    "personCard": {
+      "signingAs": "Podpisywanie jako",
+      "email": "Poczta elektroniczna",
+      "completeName": "Pełna nazwa"
+    },
+    "sign": "Podpisywanie dokumentu",
+    "signed": "Podpisano dokument",
+    "failed": "Logowanie nie powiodło",
+    "download": "Pobierz dokument",
+    "form": {
+      "title": "Dokument do podpisania",
+      "completeName": "Pełna nazwa",
+      "cpf": "CPF",
+      "signature": "Podpis cyfrowy",
+      "signatureTip": "(użyj ekranu dotykowego lub kursora myszy)",
+      "proceed": "Kontynuuj"
+    },
+    "faceCapture": {
+      "title": "Przechwytywanie twarzy",
+      "subtitle": "Zweryfikujemy Twoje zdjęcie z Bioważną bazą danych",
+      "tip": "Proszę spróbować zatrzymać się w bezpiecznym miejscu"
+    }
+  },
+  "NotFound": {
+    "title": "Nie znaleziono strony",
+    "description": "Strona, której szukasz, nie istnieje"
+  }
+}

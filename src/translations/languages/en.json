@@ -1,0 +1,98 @@
+{
+  "General": {
+    "pagination": {
+      "previous": "Prev",
+      "next": "Next",
+      "of": "of"
+    },
+    "goBack": "Go back",
+    "requiredFields": "required fields",
+    "takePhoto": "Take photo",
+    "retake": "Retake",
+    "proceed": "Proceed",
+    "fileInput": {
+      "chooseFile": "Drag & Drop file or click to upload"
+    }
+  },
+  "SigningTransactions": {
+    "title": "Sign Requests",
+    "description": "Track and manage created sign requests",
+    "tableColumns": {
+      "email": "Email",
+      "recipientName": "Recipient Name",
+      "documentName": "Document Name",
+      "creationDate": "Creation Date",
+      "status": "Status"
+    },
+    "search": "Search by email",
+    "newSignRequest": "New sign request",
+    "refresh": "Refresh",
+    "filter": "Filter",
+    "filters": {}
+  },
+  "SigningTransactionView": {
+    "title": "Document View:",
+    "documentTitle": "Signed Document",
+    "signatureTitle": "Digital Signature",
+    "downloadDocument": "Download Document",
+    "changeStatus": "Change Status",
+    "documentData": {
+      "title": "OCR Data",
+      "status": "status",
+      "documentName": "Document Name",
+      "recipientEmail": "E-mail:",
+      "recipientName": "Complete name:"
+    }
+  },
+  "NewSignRequestPopup": {
+    "form": {
+      "title": "New sign request",
+      "recipientEmail": "Recipient Email:",
+      "recipientName": "Recipient name:",
+      "recipientMessage": "Message to Participant:",
+      "documentName": "Document name:",
+      "preview": "Preview"
+    },
+    "preview": {
+      "title": "New sign request",
+      "subtitle": "Review the email preview before sending",
+      "viewPdf": "View PDF",
+      "back": "Back",
+      "send": "Send"
+    },
+    "success": {
+      "title": "Document Uploaded",
+      "subtitle": "Sign request was sent to",
+      "confirm": "Confirm"
+    }
+  },
+  "SignDocument": {
+    "title": "Sign Document",
+    "personCard": {
+      "signingAs": "Signing as",
+      "email": "E-mail",
+      "completeName": "Complete name"
+    },
+    "sign": "Sign Document",
+    "signed": "Document signed",
+    "failed": "Sign failed",
+    "download": "Download Document",
+    "form": {
+      "title": "Document to sign",
+      "completeName": "Complete Name",
+      "cpf": "CPF",
+      "signature": "Your digital signature",
+      "signatureTip": "(use your touchscreen or the mouse cursor)",
+      "proceed": "Proceed"
+    },
+    "faceCapture": {
+      "title": "Face capturing",
+      "subtitle": "We will verify your photo with BioValid database",
+      "tip": "Please try to stay inside the safe area"
+    }
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist"
+  }
+}

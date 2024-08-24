@@ -1,0 +1,98 @@
+{
+  "General": {
+    "pagination": {
+      "previous": "Prev",
+      "next": "Siguiente",
+      "of": "de"
+    },
+    "goBack": "Volver atrás",
+    "requiredFields": "campos obligatorios",
+    "takePhoto": "Tomar foto",
+    "retake": "Recuperar",
+    "proceed": "Proceda",
+    "fileInput": {
+      "chooseFile": "Arrastrar y soltar archivo o pulsar para subir"
+    }
+  },
+  "SigningTransactions": {
+    "title": "Solicitudes de firma",
+    "description": "Seguimiento y gestión de solicitudes de registro creadas",
+    "tableColumns": {
+      "email": "Correo electrónico",
+      "recipientName": "Nombre del destinatario",
+      "documentName": "Nombre del documento",
+      "creationDate": "Fecha de creación",
+      "status": "Estado"
+    },
+    "search": "Buscar por correo electrónico",
+    "newSignRequest": "Nueva solicitud de firma",
+    "refresh": "Renovar",
+    "filter": "Filtro",
+    "filters": {}
+  },
+  "SigningTransactionView": {
+    "title": "Vista de documento:",
+    "documentTitle": "Documento firmado",
+    "signatureTitle": "Firma digital",
+    "downloadDocument": "Descargar documento",
+    "changeStatus": "Cambiar estado",
+    "documentData": {
+      "title": "Datos OCR",
+      "status": "estado",
+      "documentName": "Nombre del documento",
+      "recipientEmail": "Correo electrónico:",
+      "recipientName": "Nombre completo:"
+    }
+  },
+  "NewSignRequestPopup": {
+    "form": {
+      "title": "Nueva solicitud de firma",
+      "recipientEmail": "Correo electrónico del destinatario:",
+      "recipientName": "Nombre del destinatario:",
+      "recipientMessage": "Mensaje al participante:",
+      "documentName": "Nombre del documento:",
+      "preview": "Vista previa"
+    },
+    "preview": {
+      "title": "Nueva solicitud de firma",
+      "subtitle": "Revise la vista previa del correo electrónico antes de",
+      "viewPdf": "Ver PDF",
+      "back": "Volver",
+      "send": "Enviar"
+    },
+    "success": {
+      "title": "Documento cargado",
+      "subtitle": "La solicitud de firma se ha enviado a",
+      "confirm": "Confirmar"
+    }
+  },
+  "SignDocument": {
+    "title": "Firmar documento",
+    "personCard": {
+      "signingAs": "Firma como",
+      "email": "Correo electrónico",
+      "completeName": "Nombre completo"
+    },
+    "sign": "Firmar documento",
+    "signed": "Documento firmado",
+    "failed": "Error de signo",
+    "download": "Descargar documento",
+    "form": {
+      "title": "Documento a firmar",
+      "completeName": "Nombre completo",
+      "cpf": "CPF",
+      "signature": "Su firma digital",
+      "signatureTip": "(utilice la pantalla táctil o el cursor del ratón)",
+      "proceed": "Proceda"
+    },
+    "faceCapture": {
+      "title": "Captura de cara",
+      "subtitle": "Verificaremos su foto con la base de datos BioValid",
+      "tip": "Por favor, trate de permanecer dentro del área segura"
+    }
+  },
+  "NotFound": {
+    "title": "Página no encontrada",
+    "description": "La página que está buscando no existe"
+  }
+}
