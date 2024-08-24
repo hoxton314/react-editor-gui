@@ -42,6 +42,12 @@ export const App: React.FC = observer(() => {
   //   }
   // }, [isAuthenticated, capabilitiesComputed])
 
+  useEffect(() => {
+    console.log('App mounted', process.env.DEV_MODE)
+    console.log('App mounted', process.env.STAGE)
+    console.log('App mounted', process.env)
+  })
+
   return (
     <StoreContext.Provider value={rootStore}>
       <Helmet title="React Editor" description="React Editor" themeColor="#000000" />
