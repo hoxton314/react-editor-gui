@@ -69,7 +69,11 @@ export default {
   },
   plugins: [
     new ProgressPlugin(),
-    new Dotenv(),
+    new Dotenv({
+      path: './.env',
+      safe: true,
+      systemvars: true,
+    }),
     new HtmlWebpackPlugin({
       title: 'React Editor Demo',
       template: './src/index.html',
