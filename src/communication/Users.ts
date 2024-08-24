@@ -2,8 +2,25 @@ import { axiosInstance } from '@methods/axiosConfig'
 import { GetUserList, PostUser } from '@customTypes/User'
 import axios from 'axios'
 import { toast } from 'react-toastify'
+import { getUsers } from '@/constants/mocks/requestsData'
+
+const DEV_MODE = process.env.DEV_MODE === 'true'
 
 export const getUsersList = async ({ includeDeleted }: { includeDeleted?: boolean }) => {
+  if (DEV_MODE) {
+    if (includeDeleted) {
+      return {
+        success: true,
+        data: getUsers,
+      }
+    } else {
+      return {
+        success: true,
+        data: { users: getUsers.users.filter((user) => !user.isDeleted) },
+      }
+    }
+  }
+
   try {
     return await axiosInstance.get<GetUserList>(`/users`, {
       params: {

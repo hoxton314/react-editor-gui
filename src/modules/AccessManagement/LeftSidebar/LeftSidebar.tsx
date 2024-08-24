@@ -109,6 +109,7 @@ export const LeftSidebar: FC<LeftSidebarProps> = observer(({ dragBarProps, isRes
               value={shouldIncludeDeleted}
               onChange={(e) => {
                 store.CommunicationState.setShouldIncludeDeleted(e)
+                store.CommunicationState.fetchAllAccessManagementLists()
               }}
             />
             Include deleted
